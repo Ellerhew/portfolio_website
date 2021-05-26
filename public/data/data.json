@@ -1,0 +1,39 @@
+{
+	"works": [
+		{
+			"id": "1",
+			"title": "Carrot Game",
+			"category": "javascript",
+			"image": "./image/carrotgame2.png",
+			"description": "Carrot Game - HTML, CSS, JS"
+		},
+		{
+			"id": "2",
+			"title": "Hangman Game",
+			"category": "javascript",
+			"image": "./image/hangman.png",
+			"description": "Hangman Game - HTML, CSS, JS"
+		},
+		{
+			"id": "3",
+			"title": "Meal-finder",
+			"category": "javascript",
+			"image": "./image/mealfinder.png",
+			"description": "Meal-Finder - HTML, CSS, JS, Public API"
+		},
+		{
+			"id": "4",
+			"title": "Youtube Clone-coding",
+			"category": "react",
+			"image": "./image/youtube.png",
+			"description": "Youtube Clone-coding - HTML, PostCSS, React, Public API"
+		},
+		{
+			"id": "5",
+			"title": "Portfolio Website",
+			"category": "react",
+			"image": "./image/portfolio.png",
+			"description": "Portfolio Website - HTML, PostCSS, React, React-Router"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+.list {
+	margin: 1em;
+	width: 30%;
+}
+
+.image {
+	width: 100%;
+	height: 80%;
+	border-radius: 0.5rem;
+}
+
+.hidden {
+	display: none;
+}

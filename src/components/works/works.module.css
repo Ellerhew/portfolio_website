@@ -1,0 +1,31 @@
+.works {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.buttons {
+	text-align: right;
+	margin-right: 2.5em;
+}
+
+.button {
+	background-color: transparent;
+	outline: none;
+	border: none;
+	color: gray;
+	text-decoration: underline;
+}
+
+.button:hover {
+	opacity: 50%;
+	cursor: pointer;
+}
+
+.content {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
