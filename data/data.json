@@ -1,0 +1,49 @@
+{
+	"works": [
+		{
+			"id": "1",
+			"title": "Hangman Game",
+			"category": "javascript",
+			"image": "./image/hangman.png",
+			"spec": "HTML, CSS, JS",
+			"description": "Simple game made with Javascript",
+			"link": "https://ellerhew.github.io/hangman/"
+		},
+		{
+			"id": "2",
+			"title": "Carrot Game",
+			"category": "javascript",
+			"image": "./image/carrotgame2.png",
+			"spec": "HTML, CSS, JS",
+			"description": "Simple game made with Javascript",
+			"link": "https://ellerhew.github.io/carrotgame/"
+		},
+		{
+			"id": "3",
+			"title": "Meal-finder",
+			"category": "javascript",
+			"image": "./image/mealfinder.png",
+			"spec": "HTML, CSS, JS",
+			"description": "Search keywords or randomly select meals using public API",
+			"link": "https://ellerhew.github.io/meal_finder/"
+		},
+		{
+			"id": "4",
+			"title": "Youtube Clone-coding",
+			"category": "react",
+			"image": "./image/youtube.png",
+			"spec": "HTML, PostCSS, React",
+			"description": "Youtube clone-coding with search, getting popular videos, comments and playing selected video using public API",
+			"link": "https://ellerhew.github.io/youtube_elle/"
+		},
+		{
+			"id": "5",
+			"title": "Portfolio Website",
+			"category": "react",
+			"image": "./image/portfolio.png",
+			"spec": "HTML, PostCSS, React",
+			"description": "My own portfolio website with React Router to go through pages",
+			"link": "https://ellerhew.github.io/carrotgame/"
+		}
+	]
+}
