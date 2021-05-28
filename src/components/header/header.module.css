@@ -1,15 +1,26 @@
-.header {
-	background: rgba(216, 169, 98, 0.205);
+@value makerDarkGray, makerViolet, makerLightGray, makerGray, makerLightBlue from '../../common/colors.css';
 
+.header {
+	background-color: rgba(0, 0, 0, 0.199);
 	padding: 0.5em 10em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 5rem;
 }
 
 .logo {
 	display: flex;
 	align-items: center;
+}
+
+.logo:hover {
+	cursor: pointer;
+}
+
+.logo_image {
+	font-size: 1.5rem;
+	margin-right: 1rem;
 }
 
 .picture {
@@ -19,7 +30,7 @@
 }
 
 .title {
-	font-size: 2rem;
+	font-size: 1.7rem;
 	font-weight: bold;
 }
 
@@ -27,7 +38,9 @@
 	list-style: none;
 	padding-left: 0;
 	display: flex;
-	margin-right: 5em;
+	margin-right: 3.5em;
+	margin-top: 0;
+	margin-bottom: 0;
 	font-size: 1.2rem;
 }
 
@@ -43,8 +56,9 @@
 	border: none;
 	outline: none;
 	transition: 100ms ease-in;
+	font-weight: bold;
 }
 
 .button:hover {
-	background: rgba(0, 0, 0, 0.055);
+	background: makerLightBlue;
 }

@@ -22,7 +22,10 @@ const WorkItem = ({ work, category }) => {
 				alt="thumbnail"
 				onMouseOver={onMouseOver}
 			></img>
+			<h1 className={styles.title}>{work.title}</h1>
+			<h4 className={styles.spec}>{work.spec}</h4>
 			<p className={styles.description}>{work.description}</p>
+			<button className={styles.button}>View</button>
 		</li>
 	);
 };

@@ -1,0 +1,23 @@
+@value makerBlack, makerDarkGray, makerLightBlue from '../../common/colors.css';
+
+.list {
+	margin: 2.5em;
+}
+
+.span {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0.5em;
+	font-size: 0.9rem;
+}
+
+.blackline {
+	width: 100%;
+	height: 6px;
+	background-color: makerDarkGray;
+}
+
+.colorline {
+	height: 6px;
+	background-color: makerLightBlue;
+}

@@ -1,9 +1,12 @@
+@value makerLightGray, makerLightBlue from './common/colors.css';
+
 .app {
 	min-height: 100vh;
-	background-image: url("./image/background.jpg");
+	background-image: url("./image/background2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	/* background-color: makerLightGray; */
 	display: flex;
 	flex-direction: column;
 }

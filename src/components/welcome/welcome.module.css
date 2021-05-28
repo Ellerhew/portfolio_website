@@ -1,0 +1,29 @@
+@value makerDarkGray, makerViolet, makerLightGray, makerGray, makerBlack, makerLightBlue from '../../common/colors.css';
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 40em;
+	/* background-color: rgba(255, 255, 255, 0.486); */
+}
+
+.name {
+	border: 5px solid makerBlack;
+	padding: 0.5em;
+	height: 2.6em;
+	margin-top: 4.5em;
+	font-size: 2.5rem;
+}
+
+.position {
+	font-weight: bold;
+	margin: 0;
+}
+
+.text {
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: 4em;
+}

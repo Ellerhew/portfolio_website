@@ -1,31 +1,50 @@
+@value makerBlack, makerGray, makerLightGray from '../../common/colors.css';
+
 .skills {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 40em;
+	background-color: rgba(255, 255, 255, 0.432);
+	width: 95%;
+	margin: 5em 0em;
+}
+
+.content {
+	display: flex;
+	border: 1px solid makerBlack;
+	margin-top: 2em;
+}
+
+.skills_ul {
+	width: 40em;
+	border-right: 1px solid makerBlack;
+}
+
+.others {
+	width: 10em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.items {
-	display: flex;
-	justify-content: space-around;
-	width: 100%;
+.title {
+	margin: 1em 0em;
+	font-size: 1.2em;
 }
 
-.name {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: rgb(226, 222, 230);
-	width: 10em;
-	height: 10em;
-	border-radius: 50%;
-	border: 1em solid transparent;
-	background: linear-gradient(white, white),
-		linear-gradient(to right, #01c9ca 0%, #fdbb2d 100%);
-	background-clip: padding-box, border-box;
-	background-origin: border-box;
+.others_ul {
+	text-align: center;
+	font-size: 0.9rem;
 }
 
-.ul {
+.others_ul li {
+	margin-bottom: 0.3em;
+}
+
+.skills_ul,
+.others_ul {
 	list-style: none;
-	padding: 0;
+	padding-left: 0;
+	margin: 0;
 }

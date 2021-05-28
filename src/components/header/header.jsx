@@ -8,29 +8,26 @@ const Header = (props) => {
 		const pageName = event.target.innerText;
 		history.push(`/${pageName}`);
 	};
+	const goToHome = () => {
+		history.push("/");
+	};
 
 	return (
 		<header className={styles.header}>
-			<div className={styles.logo}>
-				<img
-					className={styles.picture}
-					src="./image/image.jpg"
-					alt="logo"
-				></img>
-				<span className={styles.title}>Elle</span>
+			<div className={styles.logo} onClick={goToHome}>
+				<span className={styles.logo_image}>
+					<i className="fas fa-code"></i>
+				</span>
+				<span className={styles.title}>Code Myself</span>
 			</div>
 
 			<ul className={styles.menu}>
 				<li className={styles.item}>
 					<button className={styles.button} onClick={goToPage}>
-						about
+						home
 					</button>
 				</li>
-				<li className={styles.item}>
-					<button className={styles.button} onClick={goToPage}>
-						skills
-					</button>
-				</li>
+
 				<li className={styles.item}>
 					<button className={styles.button} onClick={goToPage}>
 						works
