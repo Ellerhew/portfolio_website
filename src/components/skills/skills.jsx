@@ -4,10 +4,10 @@ import styles from "./skills.module.css";
 
 const Skills = (props) => {
 	const [skill, setSkill] = useState([
-		{ name: "HTML", number: "90%" },
-		{ name: "CSS", number: "85%" },
-		{ name: "JAVASCRIPT", number: "75%" },
-		{ name: "REACT", number: "30%" },
+		{ name: "HTML", number: "90%", color: "#EC6043" },
+		{ name: "CSS", number: "85%", color: "#438AEC" },
+		{ name: "JAVASCRIPT", number: "75%", color: "#D3CD1B" },
+		{ name: "REACT", number: "30%", color: "#1CC1D8" },
 	]);
 
 	return (

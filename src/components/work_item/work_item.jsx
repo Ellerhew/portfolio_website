@@ -25,7 +25,9 @@ const WorkItem = ({ work, category }) => {
 			<h1 className={styles.title}>{work.title}</h1>
 			<h4 className={styles.spec}>{work.spec}</h4>
 			<p className={styles.description}>{work.description}</p>
-			<button className={styles.button}>View</button>
+			<a href={work.link} target="_blank">
+				<button className={styles.button}>View</button>
+			</a>
 		</li>
 	);
 };
