@@ -1,5 +1,6 @@
 import React from "react";
 import About from "../about/about";
+import Footer from "../footer/footer";
 import Skills from "../skills/skills";
 import Welcome from "../welcome/welcome";
 import styles from "./home.module.css";

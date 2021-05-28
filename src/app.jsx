@@ -6,12 +6,14 @@ import Home from "./components/home/home";
 import Skills from "./components/skills/skills";
 import Works from "./components/works/works";
 import styles from "./app.module.css";
+import Footer from "./components/footer/footer";
 
 function App() {
 	return (
 		<div className={styles.app}>
 			<BrowserRouter>
 				<Header />
+
 				<Switch>
 					<Route exact path={["/", "/home"]}>
 						<Home />
@@ -23,6 +25,7 @@ function App() {
 						<Contact />
 					</Route>
 				</Switch>
+				<Footer />
 			</BrowserRouter>
 		</div>
 	);

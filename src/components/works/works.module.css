@@ -4,17 +4,28 @@
 	text-align: center;
 }
 
+.title {
+	/* margin-bottom: 0.5em; */
+	/* color: white; */
+}
+
+.sortby {
+	font-size: 0.9rem;
+	margin-right: 0.5em;
+	color: rgb(73, 73, 73);
+}
+
 .buttons {
-	text-align: right;
-	margin-right: 2.5em;
+	text-align: center;
 }
 
 .button {
 	background-color: transparent;
 	outline: none;
 	border: none;
-	color: gray;
 	text-decoration: underline;
+	padding: 0.3em;
+	color: rgb(73, 73, 73);
 }
 
 .button:hover {

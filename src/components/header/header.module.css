@@ -1,12 +1,13 @@
 @value makerDarkGray, makerViolet, makerLightGray, makerGray, makerLightBlue from '../../common/colors.css';
 
 .header {
-	background-color: rgba(0, 0, 0, 0.199);
+	background-color: rgba(0, 0, 0, 0.562);
 	padding: 0.5em 10em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	height: 5rem;
+	color: makerLightBlue;
 }
 
 .logo {
@@ -32,33 +33,4 @@
 .title {
 	font-size: 1.7rem;
 	font-weight: bold;
-}
-
-.menu {
-	list-style: none;
-	padding-left: 0;
-	display: flex;
-	margin-right: 3.5em;
-	margin-top: 0;
-	margin-bottom: 0;
-	font-size: 1.2rem;
-}
-
-.item {
-	margin-left: 2em;
-}
-
-.button {
-	width: 110%;
-	height: 2rem;
-	font-size: 1rem;
-	background: transparent;
-	border: none;
-	outline: none;
-	transition: 100ms ease-in;
-	font-weight: bold;
-}
-
-.button:hover {
-	background: makerLightBlue;
 }

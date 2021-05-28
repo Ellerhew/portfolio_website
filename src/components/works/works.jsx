@@ -21,8 +21,9 @@ const Works = (props) => {
 
 	return (
 		<div className={styles.works}>
-			<h1>Works</h1>
+			<h1 className={styles.title}>Works</h1>
 			<div className={styles.buttons}>
+				<span className={styles.sortby}>Sort by</span>
 				<button
 					className={styles.button}
 					onClick={onClick}
@@ -37,7 +38,7 @@ const Works = (props) => {
 					data-key="category"
 					data-value="javascript"
 				>
-					Vanilla JS
+					JS
 				</button>
 				<button
 					className={styles.button}
