@@ -14,7 +14,7 @@
 }
 
 .skills:hover {
-	transform: translateY(-5px);
+	transform: translateY(-10px);
 	box-shadow: 9px 8px 31px 0px rgba(0, 0, 0, 0.75);
 }
 

@@ -1,7 +1,7 @@
 @value makerLightBlue from '../../common/colors.css';
 
 .list {
-	margin: 1em;
+	margin: 1em 1em 3em 1em;
 	width: 95%;
 	height: 40em;
 	background-color: rgba(250, 235, 215, 0.76);
@@ -11,7 +11,7 @@
 }
 
 .list:hover {
-	transform: translateY(-5px);
+	transform: translateY(-10px);
 	box-shadow: 9px 8px 31px 0px rgba(0, 0, 0, 0.75);
 }
 
